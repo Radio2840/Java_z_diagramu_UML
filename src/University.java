@@ -1,3 +1,12 @@
+/**
+ * Klasa która przechowuje Uniwersytet który posiada listę studentów jak i wykonuję operacje dodawania
+ * usuwania i wyszukowania studenta.
+ *
+ * listaStudentow: List<Student>, przechowuje listę obiewktów student.
+ *
+ * @author: Kinga Smolarek
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;

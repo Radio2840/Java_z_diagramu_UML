@@ -1,3 +1,8 @@
+/**
+ * Klasa która tworzy szefa grupy na studiach który będzie się kontaktował z wykładowcami za całą grupę
+ * @author: Kinga Smolarek
+ */
+
 import java.time.LocalDate;
 
 public class Starost {

@@ -1,3 +1,16 @@
+/**
+ * Klasa która dziedziczy po klasie Starost ma za zadanie spisywać podstawowe informacje o studęcie jak i
+ * też o jego czasie nauki i imprez. Klasa też mówi czy student jest dobry.
+ *
+ * name: String, przechowuje imię studenta
+ * surname: String, przechowuje nazwisko studenta
+ * birthdate: LocalDate, przechowuje datę urodzenia studenta
+ * sciencePoints: int, przechowuje punkty za naukę
+ * lifePoints: int, przechowuje punkty za imprezowanie
+ *
+ * @author: Kinga Smolarek
+ */
+
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
