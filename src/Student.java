@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Student extends Starost{
     private String name;
@@ -19,5 +20,13 @@ public class Student extends Starost{
     }
     public boolean isGoodStudent(){
         return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
     }
 }
