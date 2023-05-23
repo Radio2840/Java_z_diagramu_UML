@@ -66,4 +66,13 @@ public class Student extends Starost{
     public String getSurname() {
         return surname;
     }
+
+    @Override
+    public String toString() {
+        return "Imie " + name + "\n"
+                +"Nazwisko " + surname + "\n"
+                + "Urodzony/na " + birthdate + "\n"
+                + "Punkty nauki " + sciencePoints + "\n"
+                + "Punkty imprezy " + lifePoints + "\n";
+    }
 }

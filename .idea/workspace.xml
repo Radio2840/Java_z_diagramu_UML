@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de1628cc-23fa-425a-8842-70b63e0249a2" name="Changes" comment="Dodanie opisów do każdej z klas.">
+    <list default="true" id="de1628cc-23fa-425a-8842-70b63e0249a2" name="Changes" comment="Dodanie szkieletu menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684857678757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodanie szkieletu menu.">
+      <created>1684858389699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684858389699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +121,7 @@
     <MESSAGE value="Dodanie funkcjonalności do metod w klasie University." />
     <MESSAGE value="Dodanie funkcjonalności do metod learn, party i isGoodStudent w klasie Student" />
     <MESSAGE value="Dodanie opisów do każdej z klas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie opisów do każdej z klas." />
+    <MESSAGE value="Dodanie szkieletu menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie szkieletu menu." />
   </component>
 </project>

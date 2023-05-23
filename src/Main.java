@@ -5,6 +5,8 @@ public class Main {
         University graham = new University();
         Scanner odp = new Scanner(System.in);
         int odpowiedz;
+        String name;
+        String surname;
         System.out.println("Witamy W wirtualnym menu co chcesz zrobić?");
         while(true){
             System.out.println("1 - Dodaj studenta" +
@@ -12,17 +14,29 @@ public class Main {
                     "\n3 - Znajdz Studenta" +
                     "\n4 - Dodaj daty kiedy Student sie uczyl" +
                     "\n5 - Dodaj daty kiedy Student imprezowal" +
-                    "\n6 - Wyswietl informacje o studencie o podanym imieniu i nazwisku");
+                    "\n6 - ");
             odpowiedz = odp.nextInt();
             switch(odpowiedz) {
                 case 1:
-
+                    System.out.println("Podaj imie: ");
+                    name = odp.next();
+                    System.out.println("Podaj nazwisko: ");
+                    surname = odp.next();
+                    graham.addStudent(name,surname);
                     break;
                 case 2:
-                    // code block
+                    System.out.println("Podaj imie: ");
+                    name = odp.next();
+                    System.out.println("Podaj nazwisko");
+                    surname = odp.next();
+                    graham.removeStudent(name,surname);
                     break;
                 case 3:
-                    // code block
+                    System.out.println("Podaj imie: ");
+                    name = odp.next();
+                    System.out.println("Podaj nazwisko: ");
+                    surname = odp.next();
+                    System.out.println(graham.getStudent(name,surname).toString());
                     break;
                 case 4:
                     // code block
@@ -35,8 +49,8 @@ public class Main {
                     break;
                 default:
                     System.out.println("Pa Pa");
-                    break;
             }
+            break;
         }
     }
 }
