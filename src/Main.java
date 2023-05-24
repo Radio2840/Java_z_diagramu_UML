@@ -37,14 +37,20 @@ public class Main {
                     name = odp.next();
                     System.out.println("Podaj nazwisko");
                     surname = odp.next();
-                    graham.removeStudent(name,surname);
+                    System.out.println(graham.removeStudent(name,surname));
                     break;
                 case 3:
                     System.out.println("Podaj imie: ");
                     name = odp.next();
                     System.out.println("Podaj nazwisko: ");
                     surname = odp.next();
-                    System.out.println(graham.getStudent(name,surname).toString() + "\n" + "Czy jest dobry: " + graham.getStudent(name,surname).isGoodStudent());
+                    try {
+                        System.out.println(graham.getStudent(name,surname).toString() + "\n" + "Czy jest dobry: " + graham.getStudent(name,surname).isGoodStudent());
+                    }
+                    catch (NullPointerException e){
+                        System.out.println("Nie znaleziono");
+                        continue;
+                    }
                     break;
                 case 4:
                     System.out.println("Podaj imie: ");

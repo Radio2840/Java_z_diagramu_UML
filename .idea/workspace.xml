@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de1628cc-23fa-425a-8842-70b63e0249a2" name="Changes" comment="Dodanie menu do znajdowania , usuwania i dodawania użytkownika do uniwersytetu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="de1628cc-23fa-425a-8842-70b63e0249a2" name="Changes" comment="Dokończenie menu rozbudowanie dodwania punktow gdy student sie uczy lub imprezuje dodanie do funkcki z znajdowaniem studenta dodatkowej informacji czy jest dobry.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684860351997</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dokończenie menu rozbudowanie dodwania punktow gdy student sie uczy lub imprezuje dodanie do funkcki z znajdowaniem studenta dodatkowej informacji czy jest dobry.">
+      <created>1684946305958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684946305958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +135,7 @@
     <MESSAGE value="Dodanie opisów do każdej z klas." />
     <MESSAGE value="Dodanie szkieletu menu." />
     <MESSAGE value="Dodanie menu do znajdowania , usuwania i dodawania użytkownika do uniwersytetu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie menu do znajdowania , usuwania i dodawania użytkownika do uniwersytetu" />
+    <MESSAGE value="Dokończenie menu rozbudowanie dodwania punktow gdy student sie uczy lub imprezuje dodanie do funkcki z znajdowaniem studenta dodatkowej informacji czy jest dobry." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dokończenie menu rozbudowanie dodwania punktow gdy student sie uczy lub imprezuje dodanie do funkcki z znajdowaniem studenta dodatkowej informacji czy jest dobry." />
   </component>
 </project>
